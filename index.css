@@ -9,6 +9,7 @@
   }
   body{
     box-sizing: border-box;
+    background: url(images/bg-pattern-top-mobile.svg) top no-repeat,url(images/bg-pattern-bottom-mobile.svg) bottom no-repeat ;
     font-family: "League Spartan",sans-serif;
     font-size: 15px;
     display: flex;
@@ -101,6 +102,7 @@
   @media only screen and (min-width:769px){
     body{
       height: 100vh;
+      background: url(images/bg-pattern-top-desktop.svg) no-repeat top left, url(images/bg-pattern-bottom-desktop.svg) no-repeat bottom right;
     }
     .wrapper{
       display:grid;

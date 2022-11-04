@@ -11,15 +11,10 @@
       href="./images/favicon-32x32.png"
     />
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://fonts.google.com/specimen/League+Spartan">
     <title>Frontend Mentor | Social proof section</title>
   </head>
 
   <body>
-    <picture>
-      <source srcset="images/bg-pattern-top-desktop.svg" media="(min-width:769px)">
-      <img src="images/bg-pattern-top-mobile.svg" alt="background">
-    </picture>
 
   <div class="wrapper">
     <main>
@@ -29,7 +24,7 @@
         See what our satisfied customers are saying about our services.</p>
     </main>
 
-    <div class="awards">
+    <div class="awards" role="awards">
 
       <div class="award1">
         <div class="stars">
@@ -64,7 +59,7 @@
     </div>
   </div>
     
-    <div class="reviews">
+    <div class="reviews" role="reviews">
 
       <div class="review1">
           <div class="id1">
@@ -107,12 +102,7 @@
 
     </div>
 
-    <picture class="bottom">
-      <source srcset="images/bg-pattern-bottom-desktop.svg" media="(min-width:766px)">
-      <img src="images/bg-pattern-bottom-mobile.svg" alt="background">
-    </picture>
-
-    <div class="attribution">
+    <div class="attribution" role="footer">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
